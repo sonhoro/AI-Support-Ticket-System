@@ -1,0 +1,38 @@
+{
+  "output": {
+    "filePath": "claude_context.txt",
+    "style": "xml",
+    "removeComments": true,
+    "removeEmptyLines": true,
+    "topFilesLength": 5,
+    "showLineNumbers": false
+  },
+  "include": [
+    "**/*"
+  ],
+  "ignore": {
+    "useGitignore": true,
+    "useDefaultPatterns": true,
+    "customPatterns": [
+      "node_modules/**",
+      "dist/**",
+      "build/**",
+      ".next/**",
+      "package-lock.json",
+      "yarn.lock",
+      "pnpm-lock.yaml",
+      "*.png",
+      "*.jpg",
+      "*.jpeg",
+      "*.svg",
+      "*.woff2",
+      ".git/**",
+      "*.sqlite",
+      "*.db",
+      ".env*"
+    ]
+  },
+  "security": {
+    "enableSecurityCheck": true
+  }
+}
