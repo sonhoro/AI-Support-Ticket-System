@@ -87,9 +87,6 @@ const nextConfig = {
     typescript: {
       ignoreBuildErrors: false,
     },
-    eslint: {
-      ignoreDuringBuilds: false,
-    },
   
     // Reduce el tamaño del bundle eliminando propTypes en producción
     compiler: {
