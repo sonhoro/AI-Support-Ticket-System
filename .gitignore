@@ -25,3 +25,5 @@ Thumbs.db
 
 # optional packed context (regenerate with repomix)
 claude_context.txt
+.vercel
+.env*
