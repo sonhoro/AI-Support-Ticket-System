@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prebuild": "echo '/// <reference types=\"next\" />\n/// <reference types=\"next/image-types/global\" />' > next-env.d.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
