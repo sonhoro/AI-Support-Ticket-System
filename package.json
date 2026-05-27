@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prebuild": "node -e \"require('fs').writeFileSync('next-env.d.ts', '/// <reference types=\\\"next\\\" />\\n/// <reference types=\\\"next/image-types/global\\\" />\\n')\"",
+    "prebuild": "node scripts/fix-next-env.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
